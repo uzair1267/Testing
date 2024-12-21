@@ -6,7 +6,7 @@ module.exports.config = {
     name: "boss",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "SHANKAR SUMAN",
+    credits: "SHAAN KHAN",
     description: "no prefix",
     usePrefix: false,
     commandCategory: "No command marks needed",
@@ -14,7 +14,7 @@ module.exports.config = {
     cooldowns: 5,
 };
 
-const gif = "https://i.imgur.com/ZOZv3qU.jpeg";
+const gif = "https://i.imgur.com/PQsKoPQ.jpeg";
 const message = "● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●                                                          ☟  ========== ☟ ==========  ☟.                                                         ●============================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮";
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
