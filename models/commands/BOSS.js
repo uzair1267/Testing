@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 const gif = "https://i.imgur.com/PQsKoPQ.jpeg";
-const message = "● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●                                                          ☟  ========== ☟ ==========  ☟.                                                         ●============================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮";
+const message = "● ======= 𝐀𝐒𝐋𝐀𝐌𝐔𝐀𝐋𝐈𝐊𝐔𝐌 𝐘𝐄 𝐇𝐀𝐈 𝐒𝐇𝐀𝐀𝐍 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 ======= ●                                                          ☟  ========== ☟ ==========  ☟.                                                         ●============================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍  ";
 
 module.exports.handleEvent = async function({ api, event, client, Users, __GLOBAL }) {
     var { threadID, messageID } = event;
