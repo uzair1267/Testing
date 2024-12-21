@@ -34,8 +34,8 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
 	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
 	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "leave" : "managed";
-	const path = join(__dirname, "events", "received_1538268527085297.mp4");
-	const pathGif = join(path, `${threadID}Messenger_creation_1262567924923130.mp4`);
+	const path = join(__dirname, "events", "123.mp4");
+	const pathGif = join(path, `${threadID}123.mp4`);
 	var msg, formPush
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
