@@ -16,8 +16,8 @@ module.exports.run = async function ({ api, event }) {
 
   // List of countries with their primary timezones
   const timezones = {
-    "𝐈𝐍𝐃𝐈𝐀": "Asia/Kolkata",
-    "𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒": "Asia/Manila",
+    "𝐏𝐀𝐊𝐈𝐒𝐓𝐀𝐍": "Asia/Karachi",
+    "𝐈𝐍𝐃𝐀𝐈": "Asia/Kolkata",
     "𝐔𝐒𝐀 𝐍𝐄𝐖 𝐘𝐎𝐑𝐊": "America/New_York",
     "𝐔𝐒𝐀 𝐋𝐎𝐒 𝐀𝐍𝐆𝐄𝐋𝐄𝐒": "America/Los_Angeles",
     "𝐔𝐍𝐈𝐓𝐄𝐃 𝐊𝐈𝐍𝐆𝐃𝐎𝐌": "Europe/London",
@@ -39,13 +39,13 @@ module.exports.run = async function ({ api, event }) {
     "𝐓𝐔𝐑𝐊𝐄𝐘": "Europe/Istanbul",
     "𝐒𝐀𝐔𝐃𝐈 𝐀𝐑𝐀𝐁𝐈𝐀": "Asia/Riyadh",
     "𝐄𝐆𝐘𝐏𝐓": "Africa/Cairo",
-    "𝐏𝐀𝐊𝐈𝐒𝐓𝐀𝐍": "Asia/Karachi",
+    "𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒": "Asia/Manila",
     "𝐍𝐄𝐖 𝐙𝐄𝐀𝐋𝐀𝐍𝐃": "Pacific/Auckland",
     "𝐓𝐇𝐀𝐈𝐋𝐀𝐍𝐃": "Asia/Bangkok",
     "𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀": "America/Argentina/Buenos_Aires",
   };
 
-  let timeMessage = "🌍 **𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐓𝐈𝐌𝐄 𝐈𝐍 𝐕𝐀𝐑𝐈𝐎𝐔𝐒 𝐂𝐎𝐔𝐍𝐓𝐑𝐈𝐄𝐒**:\n\n";
+  let timeMessage = "🌍 **𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐓𝐈𝐌𝐄 𝐈𝐍 𝐕𝐀𝐑𝐈𝐎𝐔𝐒 𝐂𝐎𝐔𝐍𝐓𝐑𝐈𝐄𝐒 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍 𝐊**:\n\n";
 
   // Generate current time for each timezone
   for (const [country, timezone] of Object.entries(timezones)) {
