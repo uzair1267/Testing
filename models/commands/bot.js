@@ -497,17 +497,7 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
+if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `「 𓆩⃝${name}𓆩๏𓆪 」,  \n
-❥──────────────❥     ${rand}\n\n┏━━ೋ•  •ೋ━━┓
-     𓆩𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍𓆩๏𓆪
-┗━━ೋ•  •ೋ━━┛ \n
-❥──────────────❥Time:\n          ${time}`
-        }
-    return api.sendMessage(msg, threadID, messageID);
-  };
-
-}
-
+      body: `「 𓆩⃝${name}𓆩๏𓆪 \n\n\n𒄬𒄬❋┈┈┈•✦🩷✦•┈┈┈❋𒄬𒄬${rand}\n\n𒄬𒄬❋┈┈┈•✦🩶✦•┈┈┈❋𒄬𒄬\n𝐎𝐰𝐧𝐞𝐫 ➻   𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍 𝐊🥀
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
