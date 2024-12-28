@@ -59,10 +59,10 @@ const shayariList = [
 ];
 
 const imgLinks = [
-  "".jpeg",
-  "".jpeg",
-  "".jpeg",
-  "".jpeg"
+  "https://i.imgur.com/GnU2fgH.jpeg".jpeg",
+  "https://i.imgur.com/qXOsJLj.jpeg".jpeg",
+  "https://i.imgur.com/Xx0ai1X.jpeg".jpeg",
+  "https://i.imgur.com/ZPfKr2l.jpeg".jpeg"
   
 ];
 
