@@ -31,7 +31,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "Mtx.json",
+    "APPSTATEPATH": "uzair.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
