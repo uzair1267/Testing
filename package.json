@@ -99,7 +99,7 @@
 				"semver": "^7.3.7",
 				"sequelize": "^6.21.4",
 				"simple-youtube-api": "^5.2.1",
-        "shankar-media-downloader": "^0.0.2",
+        "fca-uzair-sehar": "^20.22.0",
         "shankar-facebook": "^1.0.15",
 				"soundcloud-downloader": "^1.0.0",
 				"sqlite3": "^5.1.1",
